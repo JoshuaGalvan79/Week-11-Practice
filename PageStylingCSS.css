@@ -1,0 +1,173 @@
+/*Joshua Galvan
+CSS Page 11/10/2019*/
+
+/*affects whole body*/
+
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgreen;
+}
+
+h1{
+    color: black;
+    font-size: 1.5rem;
+}
+
+header h1{
+    color: green;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+
+/*header starts here*/
+
+header{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: x-large;
+    background-color: rgb(218, 218, 34);
+    height: 100px;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+header h3{
+    font-family: 'Yeon Sung', cursive;
+    font-size: x-large;
+}
+
+/* images */
+.boxes{
+    width: 50%;
+    float: left;
+}
+
+#mainDiv{
+    width: 50%;
+    margin: auto;
+}
+
+#mainDiv::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+/*navigation bar starts here*/
+
+nav{
+    text-align: center;
+    background-color: rgb(191, 221, 55);
+}
+
+h2{
+    font-family: 'Fugaz One', cursive;
+    word-spacing: normal;
+}
+
+.navigation ul{
+    font-size: larger;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li{
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: .5rem;
+
+}
+
+/*section starts here*/
+
+#box{
+    background: snow;
+}
+
+.volunteer{
+    font-weight: bold;
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    padding: 1rem;
+}
+
+section h4{
+    font-family: 'Squada One', cursive;
+    font-size: x-large;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: chocolate;
+}
+
+/*footer starts here*/
+
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap{
+    padding-bottom: 1rem;
+}
+
+footer{
+       position: absolute;
+       bottom: 0;
+       width: 100%;
+       height: 1rem;
+       text-align: center;
+       color: black;
+       font-size: 1rem;
+}
+
+#foot-box{
+    color: black;
+    font-size: 1rem;
+}
+
+a:link{
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+}
